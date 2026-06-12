@@ -1,0 +1,53 @@
+{
+  "@type": "QueryResult",
+  "numberOfResults": 1,
+  "result": [
+    {
+      "@type": "EnvironmentExtensions",
+      "environmentId": "env-prod",
+      "connections": {
+        "connection": [
+          {
+            "id": "comp-http-1",
+            "name": "SAP HTTP Client",
+            "field": [
+              { "id": "url", "value": "https://dev-sap.example.com", "encryptedValueSet": false },
+              { "id": "timeout", "value": "60", "encryptedValueSet": false },
+              { "id": "password", "value": "raw-prod-secret-DO-NOT-SHOW", "encryptedValueSet": true }
+            ]
+          },
+          {
+            "id": "comp-legacy",
+            "name": "Legacy SAP Connection",
+            "field": [
+              { "id": "url", "value": "https://dev-sap.example.com", "encryptedValueSet": false }
+            ]
+          },
+          {
+            "id": "comp-ora-1",
+            "name": "Oracle DB Connector",
+            "field": [
+              { "id": "db_url", "value": "jdbc:oracle:thin:@ora-shared-01:1521/XE", "encryptedValueSet": false },
+              { "id": "db_host", "value": "ora-prod-01", "encryptedValueSet": false }
+            ]
+          },
+          {
+            "id": "comp-sf-1",
+            "name": "Salesforce Connector",
+            "field": [
+              { "id": "client_secret", "value": "raw-sf-secret-DO-NOT-SHOW", "encryptedValueSet": true },
+              { "id": "login_endpoint", "value": "https://login.salesforce.com", "encryptedValueSet": false }
+            ]
+          },
+          {
+            "id": "comp-claims",
+            "name": "Claims API Connection",
+            "field": [
+              { "id": "base_url", "value": "https://api.claims.example.com", "encryptedValueSet": false }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

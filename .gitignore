@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.env
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+.venv/
+
+# Claude Code files — local only, not part of the open source project
+CLAUDE.md
+.claude/
+*.csv

@@ -1,0 +1,83 @@
+[
+  {
+    "componentId": "c1",
+    "name": "SAP HTTP Client",
+    "version": 3,
+    "environment": "DEV",
+    "endpoint": "https://dev-sap.example.com",
+    "config": { "url": "https://dev-sap.example.com", "timeout": "30" },
+    "deleted": false
+  },
+  {
+    "componentId": "c2",
+    "name": "SAP HTTP Client",
+    "version": 3,
+    "environment": "DEV",
+    "endpoint": "https://dev-sap.example.com",
+    "config": { "url": "https://dev-sap.example.com", "timeout": "45" },
+    "deleted": false
+  },
+  {
+    "componentId": "c3",
+    "name": "SAP HTTP Client",
+    "version": 4,
+    "environment": "DEV",
+    "endpoint": "https://dev-sap.example.com",
+    "config": { "url": "https://dev-sap.example.com", "timeout": "90" },
+    "deleted": false
+  },
+  {
+    "componentId": "c4",
+    "name": "Payments API",
+    "version": 1,
+    "environment": "PROD",
+    "endpoint": "https://api.example.com",
+    "config": { "url": "https://api.example.com" },
+    "deleted": false
+  },
+  {
+    "componentId": "c5",
+    "name": "Billing API",
+    "version": 2,
+    "environment": "PROD",
+    "endpoint": "https://api.example.com",
+    "config": { "url": "https://api.example.com", "retries": "3" },
+    "deleted": false
+  },
+  {
+    "componentId": "c6",
+    "name": "Oracle DB Connector",
+    "version": 5,
+    "environment": "DEV",
+    "endpoint": null,
+    "config": { "db_host": "ora-01", "db_port": "1521" },
+    "deleted": false
+  },
+  {
+    "componentId": "c7",
+    "name": "Oracle DB Connector",
+    "version": 5,
+    "environment": "PROD",
+    "endpoint": null,
+    "config": { "db_host": "ora-01", "db_port": "1521" },
+    "deleted": false
+  },
+  {
+    "componentId": "c8",
+    "name": "Old FTP Connector",
+    "version": 1,
+    "environment": "DEV",
+    "endpoint": "ftp://old.example.com",
+    "config": { "host": "old.example.com" },
+    "deleted": true
+  },
+  {
+    "componentId": "c9",
+    "name": "Old FTP Connector",
+    "version": 1,
+    "environment": "DEV",
+    "endpoint": "ftp://old.example.com",
+    "config": { "host": "old.example.com" },
+    "deleted": true
+  }
+]

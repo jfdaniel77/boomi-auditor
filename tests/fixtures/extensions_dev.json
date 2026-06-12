@@ -1,0 +1,39 @@
+{
+  "@type": "QueryResult",
+  "numberOfResults": 1,
+  "result": [
+    {
+      "@type": "EnvironmentExtensions",
+      "environmentId": "env-dev",
+      "connections": {
+        "connection": [
+          {
+            "id": "comp-http-1",
+            "name": "SAP HTTP Client",
+            "field": [
+              { "id": "url", "value": "https://dev-sap.example.com", "encryptedValueSet": false },
+              { "id": "user", "value": "sap-dev-user", "encryptedValueSet": false },
+              { "id": "timeout", "value": "30", "encryptedValueSet": false },
+              { "id": "password", "value": "", "encryptedValueSet": true }
+            ]
+          },
+          {
+            "id": "comp-ora-1",
+            "name": "Oracle DB Connector",
+            "field": [
+              { "id": "db_url", "value": "jdbc:oracle:thin:@ora-shared-01:1521/XE", "encryptedValueSet": false },
+              { "id": "db_host", "value": "", "encryptedValueSet": false }
+            ]
+          },
+          {
+            "id": "comp-claims",
+            "name": "Claims API Connection",
+            "field": [
+              { "id": "base_url", "value": "https://api.claims.example.com", "encryptedValueSet": false }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

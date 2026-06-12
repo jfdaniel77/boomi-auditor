@@ -1,0 +1,10 @@
+{
+  "@type": "QueryResult",
+  "numberOfResults": 4,
+  "result": [
+    { "componentId": "proc-crm", "name": "CRM_Customer_Sync_v2", "type": "process", "version": 12, "currentVersion": true, "deleted": false },
+    { "componentId": "proc-sapgl", "name": "SAP_GL_Journal_Post", "type": "process", "version": 4, "currentVersion": true, "deleted": false },
+    { "componentId": "proc-claims", "name": "Claims_Intake_Inbound", "type": "process", "version": 7, "currentVersion": true, "deleted": false },
+    { "componentId": "proc-payroll", "name": "Payroll_Extract", "type": "process", "version": 2, "currentVersion": true, "deleted": false }
+  ]
+}

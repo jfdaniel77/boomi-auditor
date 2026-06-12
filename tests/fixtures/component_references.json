@@ -1,0 +1,14 @@
+{
+  "@type": "QueryResult",
+  "numberOfResults": 8,
+  "result": [
+    { "parentComponentId": "proc-crm", "componentId": "comp-http-1", "type": "DEPENDENT" },
+    { "parentComponentId": "proc-sapgl", "componentId": "comp-http-1", "type": "DEPENDENT" },
+    { "parentComponentId": "proc-claims", "componentId": "comp-http-1", "type": "DEPENDENT" },
+    { "parentComponentId": "proc-payroll", "componentId": "comp-http-1", "type": "DEPENDENT" },
+    { "parentComponentId": "proc-crm", "componentId": "comp-ora-1", "type": "DEPENDENT" },
+    { "parentComponentId": "proc-claims", "componentId": "comp-claims", "type": "DEPENDENT" },
+    { "parentComponentId": "proc-payroll", "componentId": "comp-op-1", "type": "DEPENDENT" },
+    { "parentComponentId": "comp-op-1", "componentId": "comp-legacy", "type": "DEPENDENT" }
+  ]
+}

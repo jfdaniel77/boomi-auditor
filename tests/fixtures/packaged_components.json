@@ -1,0 +1,23 @@
+{
+  "@type": "QueryResult",
+  "numberOfResults": 17,
+  "result": [
+    { "componentId": "comp-http-1", "environmentId": "env-dev", "packageId": "pkg-001", "active": true },
+    { "componentId": "comp-http-1", "environmentId": "env-prod", "packageId": "pkg-002", "active": true },
+    { "componentId": "comp-http-2", "environmentId": "env-dev", "packageId": "pkg-003", "active": true },
+    { "componentId": "comp-legacy", "environmentId": "env-prod", "packageId": "pkg-004", "active": true },
+    { "componentId": "comp-ora-1", "environmentId": "env-dev", "packageId": "pkg-005", "active": true },
+    { "componentId": "comp-ora-1", "environmentId": "env-prod", "packageId": "pkg-006", "active": true },
+    { "componentId": "comp-sf-1", "environmentId": "env-prod", "packageId": "pkg-007", "active": true },
+    { "componentId": "comp-claims", "environmentId": "env-dev", "packageId": "pkg-008", "active": true },
+    { "componentId": "comp-claims", "environmentId": "env-prod", "packageId": "pkg-009", "active": true },
+    { "componentId": "proc-crm", "environmentId": "env-dev", "packageId": "pkg-010", "active": true },
+    { "componentId": "proc-crm", "environmentId": "env-prod", "packageId": "pkg-011", "active": true },
+    { "componentId": "proc-sapgl", "environmentId": "env-prod", "packageId": "pkg-012", "active": true },
+    { "componentId": "proc-claims", "environmentId": "env-dev", "packageId": "pkg-013", "active": true },
+    { "componentId": "proc-claims", "environmentId": "env-sit", "packageId": "pkg-014", "active": true },
+    { "componentId": "proc-claims", "environmentId": "env-prod", "packageId": "pkg-015", "active": true },
+    { "componentId": "proc-payroll", "environmentId": "env-prod", "packageId": "pkg-016", "active": true },
+    { "componentId": "comp-del-1", "environmentId": "env-dev", "packageId": "pkg-017", "active": false }
+  ]
+}

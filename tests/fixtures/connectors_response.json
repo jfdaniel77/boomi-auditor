@@ -1,0 +1,19 @@
+{
+  "@type": "QueryResult",
+  "numberOfResults": 13,
+  "result": [
+    { "componentId": "comp-http-1", "name": "SAP HTTP Client", "type": "connector-settings", "subType": "http", "version": 3, "deleted": false },
+    { "componentId": "comp-http-2", "name": "SAP HTTP Client", "type": "connector-settings", "subType": "http", "version": 3, "deleted": false },
+    { "componentId": "comp-legacy", "name": "Legacy SAP Connection", "type": "connector-settings", "subType": "http", "version": 1, "deleted": false },
+    { "componentId": "comp-ora-1", "name": "Oracle DB Connector", "type": "connector-settings", "subType": "database", "version": 5, "deleted": false },
+    { "componentId": "comp-sf-1", "name": "Salesforce Connector", "type": "connector-settings", "subType": "salesforce", "version": 2, "deleted": false },
+    { "componentId": "comp-claims", "name": "Claims API Connection", "type": "connector-settings", "subType": "http", "version": 4, "deleted": false },
+    { "componentId": "comp-del-1", "name": "Old FTP Connector", "type": "connector-settings", "subType": "ftp", "version": 1, "deleted": true },
+    { "componentId": "comp-op-1", "name": "HTTP GET Operation", "type": "connector-action", "subType": "http", "version": 2, "deleted": false },
+    { "componentId": "proc-crm", "name": "CRM_Customer_Sync_v2", "type": "process", "version": 7, "deleted": false },
+    { "componentId": "proc-sapgl", "name": "SAP_GL_Journal_Post", "type": "process", "version": 2, "deleted": false },
+    { "componentId": "proc-claims", "name": "Claims_Intake_Inbound", "type": "process", "version": 4, "deleted": false },
+    { "componentId": "proc-payroll", "name": "Payroll_Extract", "type": "process", "version": 1, "deleted": false },
+    { "componentId": "comp-map-1", "name": "Student CSV to JSON", "type": "transform.map", "version": 3, "deleted": false }
+  ]
+}

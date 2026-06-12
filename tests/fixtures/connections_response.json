@@ -1,0 +1,12 @@
+{
+  "@type": "QueryResult",
+  "numberOfResults": 6,
+  "result": [
+    { "componentId": "comp-http-1", "name": "SAP HTTP Client", "type": "connector-settings", "subType": "http", "version": 3, "deleted": false },
+    { "componentId": "comp-http-2", "name": "SAP HTTP Client", "type": "connector-settings", "subType": "http", "version": 3, "deleted": false },
+    { "componentId": "comp-legacy", "name": "Legacy SAP Connection", "type": "connector-settings", "subType": "http", "version": 1, "deleted": false },
+    { "componentId": "comp-ora-1", "name": "Oracle DB Connector", "type": "connector-settings", "subType": "database", "version": 5, "deleted": false },
+    { "componentId": "comp-sf-1", "name": "Salesforce Connector", "type": "connector-settings", "subType": "salesforce", "version": 2, "deleted": false },
+    { "componentId": "comp-claims", "name": "Claims API Connection", "type": "connector-settings", "subType": "http", "version": 4, "deleted": false }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "@type": "QueryResult",
+  "numberOfResults": 4,
+  "result": [
+    { "@type": "Environment", "id": "env-dev", "name": "DEV", "classification": "TEST" },
+    { "@type": "Environment", "id": "env-sit", "name": "SIT", "classification": "TEST" },
+    { "@type": "Environment", "id": "env-qat", "name": "QAT", "classification": "TEST" },
+    { "@type": "Environment", "id": "env-prod", "name": "PROD", "classification": "PROD" }
+  ]
+}

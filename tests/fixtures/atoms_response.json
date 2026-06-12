@@ -1,0 +1,8 @@
+{
+  "@type": "QueryResult",
+  "numberOfResults": 2,
+  "result": [
+    { "id": "atom-1", "name": "prod-molecule-01", "status": "ONLINE", "type": "MOLECULE" },
+    { "id": "atom-2", "name": "dev-atom-01", "status": "OFFLINE", "type": "ATOM", "dateInstalled": "2025-11-02T08:00:00Z" }
+  ]
+}
